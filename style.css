@@ -414,7 +414,7 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding: 6rem 6vw 4rem;
+  padding: 11rem 6vw 12rem;
   position: relative;
   overflow: hidden;
 }
@@ -1232,4 +1232,5 @@ footer {
     -webkit-transform: none;
             transform: none;
   }
+
 }
