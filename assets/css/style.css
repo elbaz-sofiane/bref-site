@@ -5,6 +5,27 @@
    Compatible : Chrome 80+, Firefox 75+, Safari 13+, Edge 80+
    ============================================================ */
 
+/* ── Font display — évite FOIT, réduit CLS ────────────────── */
+@font-face {
+  font-family: 'Playfair Display';
+  font-display: swap;
+  src: local('Georgia');
+  size-adjust: 105%;
+  ascent-override: 95%;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-display: swap;
+  src: local('Helvetica Neue'), local('Arial');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-display: swap;
+  src: local('Courier New');
+}
+
 /* ── Reset & Box Model ────────────────────────────────────── */
 *,
 *::before,

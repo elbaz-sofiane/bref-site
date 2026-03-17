@@ -57,33 +57,24 @@
   <link rel="icon" type="image/jpeg" href="https://i.postimg.cc/Qxvm6L9M/icon.jpg" />
   <link rel="apple-touch-icon" href="https://i.postimg.cc/Qxvm6L9M/icon.jpg" />
 
-  <!-- ══ FONT PERFORMANCE ═══════════════════════════════════════════════════════ -->
+  <!-- ══ FONT PERFORMANCE — async, non-blocking ═══════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Non-blocking font load (no render-blocking) -->
-  <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@300;400&display=swap" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@300;400&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@300;400&display=swap"
         rel="stylesheet" media="print" onload="this.media='all'" />
   <noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet" />
   </noscript>
 
-  <!-- ══ CRITICAL CSS (above-fold, inline = zero render-block) ════════════════ -->
-  <style>
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
-    body{background:#000;color:#fff;font-family:'IBM Plex Sans',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
-    .skip-link{position:absolute;top:-100%;left:1rem;background:#fff;color:#000;font-size:.75rem;font-weight:500;letter-spacing:.1em;padding:.5rem 1rem;z-index:999;transition:top .2s;text-decoration:none}
-    .skip-link:focus{top:1rem}
-    .nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.5rem 6vw;transition:background .4s ease,padding .3s ease,border-color .4s ease;border-bottom:1px solid transparent}
-    .nav__logo{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:700;letter-spacing:.04em;color:#fff;text-decoration:none}
-    #hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:8rem 6vw 5rem}
-    .hero__title{font-family:'Playfair Display',Georgia,serif;font-size:clamp(4.5rem,15vw,13rem);font-weight:700;line-height:.88;letter-spacing:-.02em;color:#fff}
-  </style>
-
-  <!-- ══ MAIN STYLESHEET ════════════════════════════════════════════════════════ -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- ══ CSS INLINÉ — zéro requête réseau, zéro render-blocking ══════════════ -->
+  <?php
+    $css_file = __DIR__ . '/assets/css/style.css';
+    if (file_exists($css_file)) {
+      echo '<style>' . file_get_contents($css_file) . '</style>';
+    } else {
+      echo '<link rel="stylesheet" href="assets/css/style.css" />';
+    }
+  ?>
 
   <!-- ══ STRUCTURED DATA — LocalBusiness / BarberShop ═══════════════════════════ -->
   <script type="application/ld+json">
