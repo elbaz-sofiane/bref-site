@@ -516,7 +516,7 @@
 
         <div class="gal-item" role="listitem">
           <div class="gal-img-wrap">
-            <img src="https://scontent-mrs2-2.cdninstagram.com/v/t51.71878-15/587556165_1553039936117934_5891031297898008848_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzc3NDYyMDc5NjU0ODA2NzAxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=GvfrAOhr1noQ7kNvwE3wPp7&_nc_oc=AdnaAP11j8QVS0t6X-7IGqK1aiwq8bJr8u8Xsb9ATzKMIeO-EYTIEm3LaGSBR527yQCJ7H-leV45Y1SIJdKSR5Hz&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mrs2-2.cdninstagram.com&_nc_gid=Xg_sag1M1JqQKg17NQIuCw&_nc_ss=8&oh=00_AftYGoW4Z0N_oSyJEUxv_FyQfT67cg6wEeAw5palnymLyQ&oe=69AA6B81"
+            <img src=""
                  alt="Coupe dégradé homme — réalisation Bref Barber Shop Paris 8ème"
                  width="640" height="1136"
                  loading="lazy" decoding="async" />
@@ -525,7 +525,7 @@
 
         <div class="gal-item" role="listitem">
           <div class="gal-img-wrap">
-            <img src="https://scontent-mrs2-2.cdninstagram.com/v/t51.75761-15/485615636_18051289133231465_849635060551545451_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=MzU5MzIwMDI2ODM4NjkzMDE1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=jz8jxDF4OtcQ7kNvwFsrefH&_nc_oc=Adki8uDCrIo18CR0jzY7ffXEnED1bk5W1bodKsc-3XilXCOW27j2sWy-g22QZtwfOntSJvRi6btcOIRLCMe0cLeh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-mrs2-2.cdninstagram.com&_nc_gid=7rDKnlMEDMPJp-gON0u5RA&_nc_ss=8&oh=00_Afth8ew4PAojL1gR-TOEe3sMVS4HoGJyMlj88rk6rQMfXA&oe=69AA6D42"
+            <img src=""
                  alt="Barbe sculptée rasage traditionnel — Bref Barber Shop Paris"
                  width="1080" height="1350"
                  loading="lazy" decoding="async" />
@@ -534,7 +534,7 @@
 
         <div class="gal-item" role="listitem">
           <div class="gal-img-wrap">
-            <img src="https://scontent-mrs2-2.cdninstagram.com/v/t51.82787-15/579989340_18073466201231465_3979489989352940149_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=107&ig_cache_key=Mzc2MjMwOTcyNDc5NzQxODM0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5oZHIuQzMifQ%3D%3D&_nc_ohc=49_S7bQU-s0Q7kNvwGLdnqW&_nc_oc=AdleefY39tq3c7ZjMmbPvQoQl2f0E7RU51FAXdCojp5ZcHTYmLsr7zkLYMH90B7GHKdyOKoHjvwL2kXI2YdnMXLD&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-mrs2-2.cdninstagram.com&_nc_gid=Xg_sag1M1JqQKg17NQIuCw&_nc_ss=8&oh=00_Afvsk6ahkmqiJSxbdnndRxeAGDNwmYZ5fRcp8N7eS70HDg&oe=69AA6D2F"
+            <img src=""
                  alt="Coupe classique homme Paris — Bref Barber Shop 8ème arrondissement"
                  width="1440" height="1440"
                  loading="lazy" decoding="async" />
